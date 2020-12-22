@@ -1,0 +1,50 @@
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/bin/Debug/netcoreapp2.2/Survey123EmailNotification.deps.json
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/bin/Debug/netcoreapp2.2/Survey123EmailNotification.runtimeconfig.json
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/bin/Debug/netcoreapp2.2/Survey123EmailNotification.runtimeconfig.dev.json
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/bin/Debug/netcoreapp2.2/Survey123EmailNotification.dll
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/bin/Debug/netcoreapp2.2/Survey123EmailNotification.pdb
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.csprojAssemblyReference.cache
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.csproj.CoreCompileInputs.cache
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.RazorAssemblyInfo.cache
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.RazorAssemblyInfo.cs
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.AssemblyInfoInputs.cache
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.AssemblyInfo.cs
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.RazorTargetAssemblyInfo.cache
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.dll
+/Users/bishrant.adhikari/Syncplicity Folders/repos/Survey123EmailNotification/Survey123EmailNotification/obj/Debug/netcoreapp2.2/Survey123EmailNotification.pdb
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.deps.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.runtimeconfig.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.runtimeconfig.dev.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.pdb
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.csprojAssemblyReference.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorAssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.AssemblyInfoInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.AssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorTargetAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.pdb
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.csproj.CoreCompileInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.genruntimeconfig.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.deps.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.runtimeconfig.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.runtimeconfig.dev.json
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.dll
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\Survey123EmailNotification.pdb
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.csprojAssemblyReference.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.AssemblyInfoInputs.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.AssemblyInfo.cs
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.csproj.CoreCompileInputs.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorAssemblyInfo.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorAssemblyInfo.cs
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.RazorTargetAssemblyInfo.cache
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.dll
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.pdb
+D:\Projects\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\Survey123EmailNotification.genruntimeconfig.cache

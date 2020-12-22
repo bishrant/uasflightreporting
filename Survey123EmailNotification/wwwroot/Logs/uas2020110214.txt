@@ -1,0 +1,16 @@
+2020-11-02 14:28:26.394 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-11-02 14:28:26.617 -06:00 [INF] HTTP GET /api responded 404 in 102.5046 ms
+2020-11-02 14:28:26.701 -06:00 [INF] Request finished in 317.0543ms 404 
+2020-11-02 14:28:32.145 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api/test/315  
+2020-11-02 14:28:32.153 -06:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification)'
+2020-11-02 14:28:32.226 -06:00 [INF] Route matched with {action = "Test", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification)
+2020-11-02 14:28:33.051 -06:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification) with arguments (["315"]) - Validation state: "Valid"
+2020-11-02 14:28:33.080 -06:00 [INF] Executed action method Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.7ms.
+2020-11-02 14:28:33.092 -06:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-11-02 14:28:33.102 -06:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification) in 870.1439ms
+2020-11-02 14:28:33.105 -06:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Test (Survey123EmailNotification)'
+2020-11-02 14:28:33.105 -06:00 [INF] HTTP GET /api/test/315 responded 200 in 959.4405 ms
+2020-11-02 14:28:33.112 -06:00 [INF] Request finished in 966.4476ms 200 text/plain; charset=utf-8
+2020-11-02 14:28:33.239 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/favicon.ico  
+2020-11-02 14:28:33.241 -06:00 [INF] HTTP GET /favicon.ico responded 404 in 2.0856 ms
+2020-11-02 14:28:33.244 -06:00 [INF] Request finished in 5.1976ms 404 

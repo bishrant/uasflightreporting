@@ -1,0 +1,14 @@
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\UASWebhook.deps.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\UASWebhook.runtimeconfig.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\UASWebhook.runtimeconfig.dev.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\UASWebhook.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Debug\netcoreapp2.2\UASWebhook.pdb
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.csprojAssemblyReference.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.csproj.CoreCompileInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.RazorAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.RazorAssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.AssemblyInfoInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.AssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.RazorTargetAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Debug\netcoreapp2.2\UASWebhook.pdb

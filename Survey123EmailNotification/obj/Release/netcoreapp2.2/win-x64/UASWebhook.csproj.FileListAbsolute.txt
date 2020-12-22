@@ -1,0 +1,14 @@
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.exe
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.deps.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.runtimeconfig.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.runtimeconfig.dev.json
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\bin\Release\netcoreapp2.2\win-x64\UASWebhook.pdb
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.csproj.CoreCompileInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.RazorAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.RazorAssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.AssemblyInfoInputs.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.AssemblyInfo.cs
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.RazorTargetAssemblyInfo.cache
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.dll
+C:\Users\bishrant.adhikari\source\repos\Survey123EmailNotification\Survey123EmailNotification\obj\Release\netcoreapp2.2\win-x64\UASWebhook.pdb

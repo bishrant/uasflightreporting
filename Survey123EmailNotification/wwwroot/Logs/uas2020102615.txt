@@ -1,0 +1,1401 @@
+2020-10-26 15:05:17.682 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:05:18.375 -05:00 [INF] HTTP GET /api responded 404 in 103.1796 ms
+2020-10-26 15:05:18.427 -05:00 [INF] Request finished in 756.2789ms 404 
+2020-10-26 15:06:25.458 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/report application/json 7631
+2020-10-26 15:06:25.467 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML (Survey123EmailNotification)'
+2020-10-26 15:06:25.540 -05:00 [INF] Route matched with {action = "ReplaceOpenXML", controller = "Report"}. Executing action Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML (Survey123EmailNotification)
+2020-10-26 15:06:26.612 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:06:28.033 -05:00 [INF] Request content: {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "dateDispatchNotified": 1597070160000,
+      "desiredOutput": null,
+      "flightBenefitial": "yes",
+      "flightCompleted": null,
+      "flightPurpose": "polotTraining",
+      "flightPurposeOthers": "",
+      "hasAuthorization": "no",
+      "hasLicense": "yes",
+      "landOwnerName": "",
+      "landOwnerPermissionRequired": "yes",
+      "lawFlight": "",
+      "locationDesciption": "Office",
+      "maintenanceIssues": null,
+      "missionAtNight": "yes",
+      "missionDate": 1597078800000,
+      "missionDescriptionPostFlight": "",
+      "missionHazardDetails": "None",
+      "missionIssues": null,
+      "missionNumber": "",
+      "missionRemarks": "Test disregard",
+      "missionTime": "09:36",
+      "missionVisibility": "yes",
+      "outsideNoFlyZone": "no",
+      "pilotName": "Bishrant Adhikari",
+      "postFlightDate": null,
+      "signatureDate": 1597078800000,
+      "totalFlightTime": null,
+      "uavCallSign": "R402",
+      "version": "1.3.2",
+      "visualObserver": "Test",
+      "wildfireName": "",
+      "windGust": 6,
+      "windSpeed": 5,
+      "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+    },
+    "geometry": {
+      "x": -96.243795996796663,
+      "y": 30.55171145877074,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+      "objectId": 4,
+      "success": true,
+      "uniqueId": 4
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "UAS_Flight_Reporting_System"
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "eb00c949ee7d45a9b7d6a104062aebbd",
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG",
+            "contentType": "image/png",
+            "keywords": "landOwnerPermission"
+          },
+          {
+            "uploadId": "936c73f59cd44f09b26efcebdcc09b38",
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "signature"
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "dateDispatchNotified": 1597070160000,
+            "desiredOutput": null,
+            "flightBenefitial": "yes",
+            "flightCompleted": null,
+            "flightPurpose": "polotTraining",
+            "flightPurposeOthers": "",
+            "hasAuthorization": "no",
+            "hasLicense": "yes",
+            "landOwnerName": "",
+            "landOwnerPermissionRequired": "yes",
+            "lawFlight": "",
+            "locationDesciption": "Office",
+            "maintenanceIssues": null,
+            "missionAtNight": "yes",
+            "missionDate": 1597078800000,
+            "missionDescriptionPostFlight": "",
+            "missionHazardDetails": "None",
+            "missionIssues": null,
+            "missionNumber": "",
+            "missionRemarks": "Test disregard",
+            "missionTime": "09:36",
+            "missionVisibility": "yes",
+            "outsideNoFlyZone": "no",
+            "pilotName": "Bishrant Adhikari",
+            "postFlightDate": null,
+            "signatureDate": 1597078800000,
+            "totalFlightTime": null,
+            "uavCallSign": "R402",
+            "version": "1.3.2",
+            "visualObserver": "Test",
+            "wildfireName": "",
+            "windGust": 6,
+            "windSpeed": 5,
+            "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+          },
+          "geometry": {
+            "x": -96.243795996796663,
+            "y": 30.55171145877074,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "objectId": 4,
+            "success": true,
+            "uniqueId": 4
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "UAS_Flight_Reporting_System"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "UAS_Flight_Reporting_System",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_addRPIC",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_flightTImePerBattery",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+          "objectId": 4,
+          "success": true,
+          "uniqueId": 4
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "objectId": 7,
+            "success": true
+          },
+          {
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "objectId": 8,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "b6b1c6148cf3400aa965c9f29f0ea651",
+    "formTitle": "Test UAS Flight Reporting System",
+    "serviceItemId": "f086861d27554744b18e84510be2987b",
+    "serviceUrl": "https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg.."
+  },
+  "userInfo": {
+    "username": "bishrant.adhikari_tfsgis",
+    "firstName": "Bishrant",
+    "lastName": "Adhikari",
+    "fullName": "Bishrant Adhikari",
+    "email": "bishrant.adhikari@tfs.tamu.edu"
+  }
+}
+2020-10-26 15:07:18.584 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML (Survey123EmailNotification) in 53035.3899ms
+2020-10-26 15:07:18.697 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML (Survey123EmailNotification)'
+2020-10-26 15:07:19.303 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Survey123EmailNotification.Helpers.FeatureAttachments.GetSignatureAsync(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\FeatureAttachments.cs:line 36
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Survey123EmailNotification.Helpers.FlightAuthorizationPDF.CreateFlightAuthorizationApplication(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\FlightAuthorizationPDF.cs:line 20
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Survey123EmailNotification.Controllers.ReportController.ReplaceOpenXML(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Controllers\ReportController.cs:line 33
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-26 15:07:20.121 -05:00 [ERR] HTTP POST /api/report responded 500 in 54644.8678 ms
+2020-10-26 15:07:20.128 -05:00 [INF] Request finished in 54668.4576ms 500 text/html; charset=utf-8
+2020-10-26 15:13:54.983 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:13:55.132 -05:00 [INF] HTTP GET /api responded 404 in 64.2662 ms
+2020-10-26 15:13:55.158 -05:00 [INF] Request finished in 185.9532ms 404 
+2020-10-26 15:14:05.836 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:14:05.844 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:14:05.896 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:14:06.065 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:14:07.280 -05:00 [INF] {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "dateDispatchNotified": 1597070160000,
+      "desiredOutput": null,
+      "flightBenefitial": "yes",
+      "flightCompleted": null,
+      "flightPurpose": "polotTraining",
+      "flightPurposeOthers": "",
+      "hasAuthorization": "no",
+      "hasLicense": "yes",
+      "landOwnerName": "",
+      "landOwnerPermissionRequired": "yes",
+      "lawFlight": "",
+      "locationDesciption": "Office",
+      "maintenanceIssues": null,
+      "missionAtNight": "yes",
+      "missionDate": 1597078800000,
+      "missionDescriptionPostFlight": "",
+      "missionHazardDetails": "None",
+      "missionIssues": null,
+      "missionNumber": "",
+      "missionRemarks": "Test disregard",
+      "missionTime": "09:36",
+      "missionVisibility": "yes",
+      "outsideNoFlyZone": "no",
+      "pilotName": "Bishrant Adhikari",
+      "postFlightDate": null,
+      "signatureDate": 1597078800000,
+      "totalFlightTime": null,
+      "uavCallSign": "R402",
+      "version": "1.3.2",
+      "visualObserver": "Test",
+      "wildfireName": "",
+      "windGust": 6,
+      "windSpeed": 5,
+      "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+    },
+    "geometry": {
+      "x": -96.243795996796663,
+      "y": 30.55171145877074,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+      "objectId": 4,
+      "success": true,
+      "uniqueId": 4
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "UAS_Flight_Reporting_System"
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "eb00c949ee7d45a9b7d6a104062aebbd",
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG",
+            "contentType": "image/png",
+            "keywords": "landOwnerPermission"
+          },
+          {
+            "uploadId": "936c73f59cd44f09b26efcebdcc09b38",
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "signature"
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "dateDispatchNotified": 1597070160000,
+            "desiredOutput": null,
+            "flightBenefitial": "yes",
+            "flightCompleted": null,
+            "flightPurpose": "polotTraining",
+            "flightPurposeOthers": "",
+            "hasAuthorization": "no",
+            "hasLicense": "yes",
+            "landOwnerName": "",
+            "landOwnerPermissionRequired": "yes",
+            "lawFlight": "",
+            "locationDesciption": "Office",
+            "maintenanceIssues": null,
+            "missionAtNight": "yes",
+            "missionDate": 1597078800000,
+            "missionDescriptionPostFlight": "",
+            "missionHazardDetails": "None",
+            "missionIssues": null,
+            "missionNumber": "",
+            "missionRemarks": "Test disregard",
+            "missionTime": "09:36",
+            "missionVisibility": "yes",
+            "outsideNoFlyZone": "no",
+            "pilotName": "Bishrant Adhikari",
+            "postFlightDate": null,
+            "signatureDate": 1597078800000,
+            "totalFlightTime": null,
+            "uavCallSign": "R402",
+            "version": "1.3.2",
+            "visualObserver": "Test",
+            "wildfireName": "",
+            "windGust": 6,
+            "windSpeed": 5,
+            "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+          },
+          "geometry": {
+            "x": -96.243795996796663,
+            "y": 30.55171145877074,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "objectId": 4,
+            "success": true,
+            "uniqueId": 4
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "UAS_Flight_Reporting_System"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "UAS_Flight_Reporting_System",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_addRPIC",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_flightTImePerBattery",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+          "objectId": 4,
+          "success": true,
+          "uniqueId": 4
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "objectId": 7,
+            "success": true
+          },
+          {
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "objectId": 8,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "b6b1c6148cf3400aa965c9f29f0ea651",
+    "formTitle": "Test UAS Flight Reporting System",
+    "serviceItemId": "f086861d27554744b18e84510be2987b",
+    "serviceUrl": "https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg.."
+  },
+  "userInfo": {
+    "username": "bishrant.adhikari_tfsgis",
+    "firstName": "Bishrant",
+    "lastName": "Adhikari",
+    "fullName": "Bishrant Adhikari",
+    "email": "bishrant.adhikari@tfs.tamu.edu"
+  }
+}
+2020-10-26 15:14:07.291 -05:00 [INF] Executed action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1216.0682000000002ms.
+2020-10-26 15:14:07.308 -05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-10-26 15:14:07.323 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 1419.498ms
+2020-10-26 15:14:07.327 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:14:07.332 -05:00 [INF] HTTP POST /api/test responded 200 in 1495.0705 ms
+2020-10-26 15:14:07.339 -05:00 [INF] Request finished in 1503.6875ms 200 text/plain; charset=utf-8
+2020-10-26 15:14:51.946 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:14:51.950 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:14:51.953 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:14:51.961 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:15:25.188 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:15:25.334 -05:00 [INF] HTTP GET /api responded 404 in 61.9837 ms
+2020-10-26 15:15:25.358 -05:00 [INF] Request finished in 181.7486ms 404 
+2020-10-26 15:15:28.829 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:15:28.837 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:15:28.887 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:15:29.049 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:16:14.113 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:16:14.260 -05:00 [INF] HTTP GET /api responded 404 in 61.8525 ms
+2020-10-26 15:16:14.284 -05:00 [INF] Request finished in 185.7916ms 404 
+2020-10-26 15:16:18.939 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:16:18.947 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:16:18.998 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:16:19.156 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:17:17.388 -05:00 [INF] {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "dateDispatchNotified": 1597070160000,
+      "desiredOutput": null,
+      "flightBenefitial": "yes",
+      "flightCompleted": null,
+      "flightPurpose": "polotTraining",
+      "flightPurposeOthers": "",
+      "hasAuthorization": "no",
+      "hasLicense": "yes",
+      "landOwnerName": "",
+      "landOwnerPermissionRequired": "yes",
+      "lawFlight": "",
+      "locationDesciption": "Office",
+      "maintenanceIssues": null,
+      "missionAtNight": "yes",
+      "missionDate": 1597078800000,
+      "missionDescriptionPostFlight": "",
+      "missionHazardDetails": "None",
+      "missionIssues": null,
+      "missionNumber": "",
+      "missionRemarks": "Test disregard",
+      "missionTime": "09:36",
+      "missionVisibility": "yes",
+      "outsideNoFlyZone": "no",
+      "pilotName": "Bishrant Adhikari",
+      "postFlightDate": null,
+      "signatureDate": 1597078800000,
+      "totalFlightTime": null,
+      "uavCallSign": "R402",
+      "version": "1.3.2",
+      "visualObserver": "Test",
+      "wildfireName": "",
+      "windGust": 6,
+      "windSpeed": 5,
+      "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+    },
+    "geometry": {
+      "x": -96.243795996796663,
+      "y": 30.55171145877074,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+      "objectId": 4,
+      "success": true,
+      "uniqueId": 4
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "UAS_Flight_Reporting_System"
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "eb00c949ee7d45a9b7d6a104062aebbd",
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG",
+            "contentType": "image/png",
+            "keywords": "landOwnerPermission"
+          },
+          {
+            "uploadId": "936c73f59cd44f09b26efcebdcc09b38",
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "signature"
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "dateDispatchNotified": 1597070160000,
+            "desiredOutput": null,
+            "flightBenefitial": "yes",
+            "flightCompleted": null,
+            "flightPurpose": "polotTraining",
+            "flightPurposeOthers": "",
+            "hasAuthorization": "no",
+            "hasLicense": "yes",
+            "landOwnerName": "",
+            "landOwnerPermissionRequired": "yes",
+            "lawFlight": "",
+            "locationDesciption": "Office",
+            "maintenanceIssues": null,
+            "missionAtNight": "yes",
+            "missionDate": 1597078800000,
+            "missionDescriptionPostFlight": "",
+            "missionHazardDetails": "None",
+            "missionIssues": null,
+            "missionNumber": "",
+            "missionRemarks": "Test disregard",
+            "missionTime": "09:36",
+            "missionVisibility": "yes",
+            "outsideNoFlyZone": "no",
+            "pilotName": "Bishrant Adhikari",
+            "postFlightDate": null,
+            "signatureDate": 1597078800000,
+            "totalFlightTime": null,
+            "uavCallSign": "R402",
+            "version": "1.3.2",
+            "visualObserver": "Test",
+            "wildfireName": "",
+            "windGust": 6,
+            "windSpeed": 5,
+            "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+          },
+          "geometry": {
+            "x": -96.243795996796663,
+            "y": 30.55171145877074,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "objectId": 4,
+            "success": true,
+            "uniqueId": 4
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "UAS_Flight_Reporting_System"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "UAS_Flight_Reporting_System",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_addRPIC",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_flightTImePerBattery",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+          "objectId": 4,
+          "success": true,
+          "uniqueId": 4
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "objectId": 7,
+            "success": true
+          },
+          {
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "objectId": 8,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "b6b1c6148cf3400aa965c9f29f0ea651",
+    "formTitle": "Test UAS Flight Reporting System",
+    "serviceItemId": "f086861d27554744b18e84510be2987b",
+    "serviceUrl": "https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg.."
+  },
+  "userInfo": {
+    "username": "bishrant.adhikari_tfsgis",
+    "firstName": "Bishrant",
+    "lastName": "Adhikari",
+    "fullName": "Bishrant Adhikari",
+    "email": "bishrant.adhikari@tfs.tamu.edu"
+  }
+}
+2020-10-26 15:17:17.401 -05:00 [INF] Executed action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 58234.5232ms.
+2020-10-26 15:17:17.419 -05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-10-26 15:17:17.433 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 58426.802ms
+2020-10-26 15:17:17.437 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:17:17.441 -05:00 [INF] HTTP POST /api/test responded 200 in 58501.5485 ms
+2020-10-26 15:17:17.448 -05:00 [INF] Request finished in 58507.6715ms 200 text/plain; charset=utf-8
+2020-10-26 15:17:24.756 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:17:24.761 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:17:24.764 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:17:24.771 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:19:42.101 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:19:42.249 -05:00 [INF] HTTP GET /api responded 404 in 63.2754 ms
+2020-10-26 15:19:42.274 -05:00 [INF] Request finished in 185.2511ms 404 
+2020-10-26 15:19:45.146 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:19:45.154 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:19:45.208 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:19:45.378 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:20:40.546 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:20:40.699 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:20:40.752 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:20:40.935 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:20:46.465 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:20:46.483 -05:00 [INF] HTTP GET /api responded 404 in 0.6170 ms
+2020-10-26 15:20:46.495 -05:00 [INF] Request finished in 29.0433ms 404 
+2020-10-26 15:21:20.076 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:21:20.076 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:21:20.229 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:21:20.233 -05:00 [INF] HTTP GET /api responded 404 in 69.4744 ms
+2020-10-26 15:21:20.259 -05:00 [INF] Request finished in 197.2376ms 404 
+2020-10-26 15:21:20.303 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:21:20.473 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:22:11.544 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:22:11.696 -05:00 [INF] HTTP GET /api responded 404 in 66.0029 ms
+2020-10-26 15:22:11.724 -05:00 [INF] Request finished in 192.6231ms 404 
+2020-10-26 15:22:15.693 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:22:15.700 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:22:15.751 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:22:15.910 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:22:20.384 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 4625.7305000000006ms
+2020-10-26 15:22:20.454 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:22:20.784 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81
+   at Survey123EmailNotification.Controllers.TestController.Post(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Controllers\TestController.cs:line 28
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-26 15:22:21.021 -05:00 [ERR] HTTP POST /api/test responded 500 in 5311.6031 ms
+2020-10-26 15:22:21.029 -05:00 [INF] Request finished in 5335.8209ms 500 text/html; charset=utf-8
+2020-10-26 15:23:29.461 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:23:29.614 -05:00 [INF] HTTP GET /api responded 404 in 64.3400 ms
+2020-10-26 15:23:29.642 -05:00 [INF] Request finished in 193.2482ms 404 
+2020-10-26 15:23:34.202 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:23:34.210 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:23:34.263 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:23:34.429 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:23:46.724 -05:00 [INF] {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "dateDispatchNotified": 1597070160000,
+      "desiredOutput": null,
+      "flightBenefitial": "yes",
+      "flightCompleted": null,
+      "flightPurpose": "polotTraining",
+      "flightPurposeOthers": "",
+      "hasAuthorization": "no",
+      "hasLicense": "yes",
+      "landOwnerName": "",
+      "landOwnerPermissionRequired": "yes",
+      "lawFlight": "",
+      "locationDesciption": "Office",
+      "maintenanceIssues": null,
+      "missionAtNight": "yes",
+      "missionDate": 1597078800000,
+      "missionDescriptionPostFlight": "",
+      "missionHazardDetails": "None",
+      "missionIssues": null,
+      "missionNumber": "",
+      "missionRemarks": "Test disregard",
+      "missionTime": "09:36",
+      "missionVisibility": "yes",
+      "outsideNoFlyZone": "no",
+      "pilotName": "Bishrant Adhikari",
+      "postFlightDate": null,
+      "signatureDate": 1597078800000,
+      "totalFlightTime": null,
+      "uavCallSign": "R402",
+      "version": "1.3.2",
+      "visualObserver": "Test",
+      "wildfireName": "",
+      "windGust": 6,
+      "windSpeed": 5,
+      "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+    },
+    "geometry": {
+      "x": -96.243795996796663,
+      "y": 30.55171145877074,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+      "objectId": 4,
+      "success": true,
+      "uniqueId": 4
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "UAS_Flight_Reporting_System"
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "eb00c949ee7d45a9b7d6a104062aebbd",
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG",
+            "contentType": "image/png",
+            "keywords": "landOwnerPermission"
+          },
+          {
+            "uploadId": "936c73f59cd44f09b26efcebdcc09b38",
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "signature"
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "dateDispatchNotified": 1597070160000,
+            "desiredOutput": null,
+            "flightBenefitial": "yes",
+            "flightCompleted": null,
+            "flightPurpose": "polotTraining",
+            "flightPurposeOthers": "",
+            "hasAuthorization": "no",
+            "hasLicense": "yes",
+            "landOwnerName": "",
+            "landOwnerPermissionRequired": "yes",
+            "lawFlight": "",
+            "locationDesciption": "Office",
+            "maintenanceIssues": null,
+            "missionAtNight": "yes",
+            "missionDate": 1597078800000,
+            "missionDescriptionPostFlight": "",
+            "missionHazardDetails": "None",
+            "missionIssues": null,
+            "missionNumber": "",
+            "missionRemarks": "Test disregard",
+            "missionTime": "09:36",
+            "missionVisibility": "yes",
+            "outsideNoFlyZone": "no",
+            "pilotName": "Bishrant Adhikari",
+            "postFlightDate": null,
+            "signatureDate": 1597078800000,
+            "totalFlightTime": null,
+            "uavCallSign": "R402",
+            "version": "1.3.2",
+            "visualObserver": "Test",
+            "wildfireName": "",
+            "windGust": 6,
+            "windSpeed": 5,
+            "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+          },
+          "geometry": {
+            "x": -96.243795996796663,
+            "y": 30.55171145877074,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "objectId": 4,
+            "success": true,
+            "uniqueId": 4
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "UAS_Flight_Reporting_System"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "UAS_Flight_Reporting_System",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_addRPIC",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_flightTImePerBattery",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+          "objectId": 4,
+          "success": true,
+          "uniqueId": 4
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "objectId": 7,
+            "success": true
+          },
+          {
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "objectId": 8,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "b6b1c6148cf3400aa965c9f29f0ea651",
+    "formTitle": "Test UAS Flight Reporting System",
+    "serviceItemId": "f086861d27554744b18e84510be2987b",
+    "serviceUrl": "https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg.."
+  },
+  "userInfo": {
+    "username": "bishrant.adhikari_tfsgis",
+    "firstName": "Bishrant",
+    "lastName": "Adhikari",
+    "fullName": "Bishrant Adhikari",
+    "email": "bishrant.adhikari@tfs.tamu.edu"
+  }
+}
+2020-10-26 15:23:46.737 -05:00 [INF] Executed action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12297.2108ms.
+2020-10-26 15:23:46.754 -05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-10-26 15:23:46.767 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 12497.160800000001ms
+2020-10-26 15:23:46.771 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:23:46.775 -05:00 [INF] HTTP POST /api/test responded 200 in 12572.2907 ms
+2020-10-26 15:23:46.783 -05:00 [INF] Request finished in 12579.9682ms 200 text/plain; charset=utf-8
+2020-10-26 15:24:39.396 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:24:39.565 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:24:39.623 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:24:39.668 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:24:39.676 -05:00 [INF] HTTP GET /api responded 404 in 0.8095 ms
+2020-10-26 15:24:39.689 -05:00 [INF] Request finished in 20.2003ms 404 
+2020-10-26 15:24:39.836 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:24:49.371 -05:00 [INF] {
+  "eventType": "addData",
+  "feature": {
+    "attributes": {
+      "dateDispatchNotified": 1597070160000,
+      "desiredOutput": null,
+      "flightBenefitial": "yes",
+      "flightCompleted": null,
+      "flightPurpose": "polotTraining",
+      "flightPurposeOthers": "",
+      "hasAuthorization": "no",
+      "hasLicense": "yes",
+      "landOwnerName": "",
+      "landOwnerPermissionRequired": "yes",
+      "lawFlight": "",
+      "locationDesciption": "Office",
+      "maintenanceIssues": null,
+      "missionAtNight": "yes",
+      "missionDate": 1597078800000,
+      "missionDescriptionPostFlight": "",
+      "missionHazardDetails": "None",
+      "missionIssues": null,
+      "missionNumber": "",
+      "missionRemarks": "Test disregard",
+      "missionTime": "09:36",
+      "missionVisibility": "yes",
+      "outsideNoFlyZone": "no",
+      "pilotName": "Bishrant Adhikari",
+      "postFlightDate": null,
+      "signatureDate": 1597078800000,
+      "totalFlightTime": null,
+      "uavCallSign": "R402",
+      "version": "1.3.2",
+      "visualObserver": "Test",
+      "wildfireName": "",
+      "windGust": 6,
+      "windSpeed": 5,
+      "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+    },
+    "geometry": {
+      "x": -96.243795996796663,
+      "y": 30.55171145877074,
+      "spatialReference": {
+        "wkid": 4326
+      }
+    },
+    "result": {
+      "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+      "objectId": 4,
+      "success": true,
+      "uniqueId": 4
+    },
+    "layerInfo": {
+      "id": 0,
+      "name": "UAS_Flight_Reporting_System"
+    }
+  },
+  "applyEdits": [
+    {
+      "id": 0,
+      "attachments": {
+        "adds": [
+          {
+            "uploadId": "eb00c949ee7d45a9b7d6a104062aebbd",
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG",
+            "contentType": "image/png",
+            "keywords": "landOwnerPermission"
+          },
+          {
+            "uploadId": "936c73f59cd44f09b26efcebdcc09b38",
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "parentGlobalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "name": "signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg",
+            "contentType": "image/jpeg",
+            "keywords": "signature"
+          }
+        ]
+      },
+      "adds": [
+        {
+          "attributes": {
+            "dateDispatchNotified": 1597070160000,
+            "desiredOutput": null,
+            "flightBenefitial": "yes",
+            "flightCompleted": null,
+            "flightPurpose": "polotTraining",
+            "flightPurposeOthers": "",
+            "hasAuthorization": "no",
+            "hasLicense": "yes",
+            "landOwnerName": "",
+            "landOwnerPermissionRequired": "yes",
+            "lawFlight": "",
+            "locationDesciption": "Office",
+            "maintenanceIssues": null,
+            "missionAtNight": "yes",
+            "missionDate": 1597078800000,
+            "missionDescriptionPostFlight": "",
+            "missionHazardDetails": "None",
+            "missionIssues": null,
+            "missionNumber": "",
+            "missionRemarks": "Test disregard",
+            "missionTime": "09:36",
+            "missionVisibility": "yes",
+            "outsideNoFlyZone": "no",
+            "pilotName": "Bishrant Adhikari",
+            "postFlightDate": null,
+            "signatureDate": 1597078800000,
+            "totalFlightTime": null,
+            "uavCallSign": "R402",
+            "version": "1.3.2",
+            "visualObserver": "Test",
+            "wildfireName": "",
+            "windGust": 6,
+            "windSpeed": 5,
+            "globalid": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}"
+          },
+          "geometry": {
+            "x": -96.243795996796663,
+            "y": 30.55171145877074,
+            "spatialReference": {
+              "wkid": 4326
+            }
+          },
+          "result": {
+            "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+            "objectId": 4,
+            "success": true,
+            "uniqueId": 4
+          },
+          "layerInfo": {
+            "id": 0,
+            "name": "UAS_Flight_Reporting_System"
+          }
+        }
+      ],
+      "layerInfo": {
+        "id": 0,
+        "name": "UAS_Flight_Reporting_System",
+        "type": "Feature Layer",
+        "objectIdField": "objectid",
+        "globalIdField": "globalid",
+        "relationships": [
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 1,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_addRPIC",
+            "relatedTableId": 1,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          },
+          {
+            "cardinality": "esriRelCardinalityOneToMany",
+            "composite": true,
+            "id": 2,
+            "keyField": "globalid",
+            "name": "UAS_Flight_Reporting_System_flightTImePerBattery",
+            "relatedTableId": 2,
+            "role": "esriRelRoleOrigin",
+            "keyFieldInfo": {
+              "alias": "GlobalID",
+              "defaultValue": null,
+              "editable": false,
+              "length": 38,
+              "name": "globalid",
+              "nullable": false,
+              "sqlType": "sqlTypeGUID",
+              "type": "esriFieldTypeGlobalID"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "response": [
+    {
+      "addResults": [
+        {
+          "globalId": "{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}",
+          "objectId": 4,
+          "success": true,
+          "uniqueId": 4
+        }
+      ],
+      "attachments": {
+        "addResults": [
+          {
+            "globalId": "{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}",
+            "objectId": 7,
+            "success": true
+          },
+          {
+            "globalId": "{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}",
+            "objectId": 8,
+            "success": true
+          }
+        ],
+        "deleteResults": [],
+        "updateResults": []
+      },
+      "id": 0
+    }
+  ],
+  "surveyInfo": {
+    "formItemId": "b6b1c6148cf3400aa965c9f29f0ea651",
+    "formTitle": "Test UAS Flight Reporting System",
+    "serviceItemId": "f086861d27554744b18e84510be2987b",
+    "serviceUrl": "https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer"
+  },
+  "portalInfo": {
+    "url": "https://www.arcgis.com",
+    "token": "2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg.."
+  },
+  "userInfo": {
+    "username": "bishrant.adhikari_tfsgis",
+    "firstName": "Bishrant",
+    "lastName": "Adhikari",
+    "fullName": "Bishrant Adhikari",
+    "email": "bishrant.adhikari@tfs.tamu.edu"
+  }
+}
+2020-10-26 15:24:49.380 -05:00 [INF] Executed action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9534.6328000000012ms.
+2020-10-26 15:24:49.397 -05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-10-26 15:24:49.410 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 9779.742ms
+2020-10-26 15:24:49.414 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:24:49.419 -05:00 [INF] HTTP POST /api/test responded 200 in 9931.4755 ms
+2020-10-26 15:24:49.427 -05:00 [INF] Request finished in 10048.0832ms 200 text/plain; charset=utf-8
+2020-10-26 15:25:17.705 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:25:17.849 -05:00 [INF] HTTP GET /api responded 404 in 62.1378 ms
+2020-10-26 15:25:17.873 -05:00 [INF] Request finished in 178.9654ms 404 
+2020-10-26 15:25:20.554 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:25:20.561 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:25:20.610 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:25:20.763 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:25:25.449 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 4830.7062000000005ms
+2020-10-26 15:25:25.522 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:25:25.862 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81
+   at Survey123EmailNotification.Controllers.TestController.Post(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Controllers\TestController.cs:line 28
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-26 15:25:26.105 -05:00 [ERR] HTTP POST /api/test responded 500 in 5534.4378 ms
+2020-10-26 15:25:26.112 -05:00 [INF] Request finished in 5557.8711ms 500 text/html; charset=utf-8
+2020-10-26 15:27:14.617 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:27:14.771 -05:00 [INF] HTTP GET /api responded 404 in 70.2428 ms
+2020-10-26 15:27:14.805 -05:00 [INF] Request finished in 199.583ms 404 
+2020-10-26 15:27:19.062 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:27:19.071 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:27:19.122 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:27:19.281 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:28:17.257 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:9090/api/test application/json 7631
+2020-10-26 15:28:17.413 -05:00 [INF] Executing endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:28:17.480 -05:00 [INF] Route matched with {action = "Post", controller = "Test"}. Executing action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)
+2020-10-26 15:28:17.680 -05:00 [INF] Executing action method Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) with arguments (["{\r\n  \"eventType\": \"addData\",\r\n  \"feature\": {\r\n    \"attributes\": {\r\n      \"dateDispatchNotified\": 1597070160000,\r\n      \"desiredOutput\": null,\r\n      \"flightBenefitial\": \"yes\",\r\n      \"flightCompleted\": null,\r\n      \"flightPurpose\": \"polotTraining\",\r\n      \"flightPurposeOthers\": \"\",\r\n      \"hasAuthorization\": \"no\",\r\n      \"hasLicense\": \"yes\",\r\n      \"landOwnerName\": \"\",\r\n      \"landOwnerPermissionRequired\": \"yes\",\r\n      \"lawFlight\": \"\",\r\n      \"locationDesciption\": \"Office\",\r\n      \"maintenanceIssues\": null,\r\n      \"missionAtNight\": \"yes\",\r\n      \"missionDate\": 1597078800000,\r\n      \"missionDescriptionPostFlight\": \"\",\r\n      \"missionHazardDetails\": \"None\",\r\n      \"missionIssues\": null,\r\n      \"missionNumber\": \"\",\r\n      \"missionRemarks\": \"Test disregard\",\r\n      \"missionTime\": \"09:36\",\r\n      \"missionVisibility\": \"yes\",\r\n      \"outsideNoFlyZone\": \"no\",\r\n      \"pilotName\": \"Bishrant Adhikari\",\r\n      \"postFlightDate\": null,\r\n      \"signatureDate\": 1597078800000,\r\n      \"totalFlightTime\": null,\r\n      \"uavCallSign\": \"R402\",\r\n      \"version\": \"1.3.2\",\r\n      \"visualObserver\": \"Test\",\r\n      \"wildfireName\": \"\",\r\n      \"windGust\": 6,\r\n      \"windSpeed\": 5,\r\n      \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n    },\r\n    \"geometry\": {\r\n      \"x\": -96.243795996796663,\r\n      \"y\": 30.55171145877074,\r\n      \"spatialReference\": {\r\n        \"wkid\": 4326\r\n      }\r\n    },\r\n    \"result\": {\r\n      \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n      \"objectId\": 4,\r\n      \"success\": true,\r\n      \"uniqueId\": 4\r\n    },\r\n    \"layerInfo\": {\r\n      \"id\": 0,\r\n      \"name\": \"UAS_Flight_Reporting_System\"\r\n    }\r\n  },\r\n  \"applyEdits\": [\r\n    {\r\n      \"id\": 0,\r\n      \"attachments\": {\r\n        \"adds\": [\r\n          {\r\n            \"uploadId\": \"eb00c949ee7d45a9b7d6a104062aebbd\",\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"landOwnerPermission-ec1237ea3e2b4b8a98b3d05b9ee4c8f9.PNG\",\r\n            \"contentType\": \"image/png\",\r\n            \"keywords\": \"landOwnerPermission\"\r\n          },\r\n          {\r\n            \"uploadId\": \"936c73f59cd44f09b26efcebdcc09b38\",\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"parentGlobalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"name\": \"signature-7246ad9d5e0c448085dda1c6cd4c7a57.jpg\",\r\n            \"contentType\": \"image/jpeg\",\r\n            \"keywords\": \"signature\"\r\n          }\r\n        ]\r\n      },\r\n      \"adds\": [\r\n        {\r\n          \"attributes\": {\r\n            \"dateDispatchNotified\": 1597070160000,\r\n            \"desiredOutput\": null,\r\n            \"flightBenefitial\": \"yes\",\r\n            \"flightCompleted\": null,\r\n            \"flightPurpose\": \"polotTraining\",\r\n            \"flightPurposeOthers\": \"\",\r\n            \"hasAuthorization\": \"no\",\r\n            \"hasLicense\": \"yes\",\r\n            \"landOwnerName\": \"\",\r\n            \"landOwnerPermissionRequired\": \"yes\",\r\n            \"lawFlight\": \"\",\r\n            \"locationDesciption\": \"Office\",\r\n            \"maintenanceIssues\": null,\r\n            \"missionAtNight\": \"yes\",\r\n            \"missionDate\": 1597078800000,\r\n            \"missionDescriptionPostFlight\": \"\",\r\n            \"missionHazardDetails\": \"None\",\r\n            \"missionIssues\": null,\r\n            \"missionNumber\": \"\",\r\n            \"missionRemarks\": \"Test disregard\",\r\n            \"missionTime\": \"09:36\",\r\n            \"missionVisibility\": \"yes\",\r\n            \"outsideNoFlyZone\": \"no\",\r\n            \"pilotName\": \"Bishrant Adhikari\",\r\n            \"postFlightDate\": null,\r\n            \"signatureDate\": 1597078800000,\r\n            \"totalFlightTime\": null,\r\n            \"uavCallSign\": \"R402\",\r\n            \"version\": \"1.3.2\",\r\n            \"visualObserver\": \"Test\",\r\n            \"wildfireName\": \"\",\r\n            \"windGust\": 6,\r\n            \"windSpeed\": 5,\r\n            \"globalid\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\"\r\n          },\r\n          \"geometry\": {\r\n            \"x\": -96.243795996796663,\r\n            \"y\": 30.55171145877074,\r\n            \"spatialReference\": {\r\n              \"wkid\": 4326\r\n            }\r\n          },\r\n          \"result\": {\r\n            \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n            \"objectId\": 4,\r\n            \"success\": true,\r\n            \"uniqueId\": 4\r\n          },\r\n          \"layerInfo\": {\r\n            \"id\": 0,\r\n            \"name\": \"UAS_Flight_Reporting_System\"\r\n          }\r\n        }\r\n      ],\r\n      \"layerInfo\": {\r\n        \"id\": 0,\r\n        \"name\": \"UAS_Flight_Reporting_System\",\r\n        \"type\": \"Feature Layer\",\r\n        \"objectIdField\": \"objectid\",\r\n        \"globalIdField\": \"globalid\",\r\n        \"relationships\": [\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 1,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_addRPIC\",\r\n            \"relatedTableId\": 1,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          },\r\n          {\r\n            \"cardinality\": \"esriRelCardinalityOneToMany\",\r\n            \"composite\": true,\r\n            \"id\": 2,\r\n            \"keyField\": \"globalid\",\r\n            \"name\": \"UAS_Flight_Reporting_System_flightTImePerBattery\",\r\n            \"relatedTableId\": 2,\r\n            \"role\": \"esriRelRoleOrigin\",\r\n            \"keyFieldInfo\": {\r\n              \"alias\": \"GlobalID\",\r\n              \"defaultValue\": null,\r\n              \"editable\": false,\r\n              \"length\": 38,\r\n              \"name\": \"globalid\",\r\n              \"nullable\": false,\r\n              \"sqlType\": \"sqlTypeGUID\",\r\n              \"type\": \"esriFieldTypeGlobalID\"\r\n            }\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  ],\r\n  \"response\": [\r\n    {\r\n      \"addResults\": [\r\n        {\r\n          \"globalId\": \"{09A0C9C5-1038-4594-BA35-B9BDCBBD852D}\",\r\n          \"objectId\": 4,\r\n          \"success\": true,\r\n          \"uniqueId\": 4\r\n        }\r\n      ],\r\n      \"attachments\": {\r\n        \"addResults\": [\r\n          {\r\n            \"globalId\": \"{F0B5091B-95F3-4622-8D1A-4B6B3D8F54EC}\",\r\n            \"objectId\": 7,\r\n            \"success\": true\r\n          },\r\n          {\r\n            \"globalId\": \"{CEBB1BEB-4980-49AC-A6B8-9ECFD85B6D0F}\",\r\n            \"objectId\": 8,\r\n            \"success\": true\r\n          }\r\n        ],\r\n        \"deleteResults\": [],\r\n        \"updateResults\": []\r\n      },\r\n      \"id\": 0\r\n    }\r\n  ],\r\n  \"surveyInfo\": {\r\n    \"formItemId\": \"b6b1c6148cf3400aa965c9f29f0ea651\",\r\n    \"formTitle\": \"Test UAS Flight Reporting System\",\r\n    \"serviceItemId\": \"f086861d27554744b18e84510be2987b\",\r\n    \"serviceUrl\": \"https://services5.arcgis.com/ELI1iJkCzTIagHkp/arcgis/rest/services/service_5ae58da7310041fabc02669c359dc4d0/FeatureServer\"\r\n  },\r\n  \"portalInfo\": {\r\n    \"url\": \"https://www.arcgis.com\",\r\n    \"token\": \"2sGOOpk8OftxTBSnFz3xP_hi4403okhgLewBszGp8NqXNuy6Ov_TufGKphl8s_tV3vasSBRoi0dx4OqoF9e4xX1pfkqHl1k5Ufbbb_AUwvCyBN7MfIdDxTaK46rCUHz2h7PkkhOSjp6O3i184GGSaQyOGErGFQOkmWQef1iz_rK80pBUG5lfNhlR1bgW9KGgpac_-X_2hDH6kP9FlMGTu_E0ah40E1hGKJG1DY7ZUsVVm5KdaVnguO8Z1xFmwX_T3fvJZNC44GD64zRMbCXPkg..\"\r\n  },\r\n  \"userInfo\": {\r\n    \"username\": \"bishrant.adhikari_tfsgis\",\r\n    \"firstName\": \"Bishrant\",\r\n    \"lastName\": \"Adhikari\",\r\n    \"fullName\": \"Bishrant Adhikari\",\r\n    \"email\": \"bishrant.adhikari@tfs.tamu.edu\"\r\n  }\r\n}"]) - Validation state: "Valid"
+2020-10-26 15:28:17.731 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:9090/api  
+2020-10-26 15:28:17.739 -05:00 [INF] HTTP GET /api responded 404 in 0.6971 ms
+2020-10-26 15:28:17.750 -05:00 [INF] Request finished in 18.6304ms 404 
+2020-10-26 15:28:23.832 -05:00 [INF] Executed action Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification) in 6344.6621000000005ms
+2020-10-26 15:28:23.903 -05:00 [INF] Executed endpoint 'Survey123EmailNotification.Controllers.TestController.Post (Survey123EmailNotification)'
+2020-10-26 15:28:24.241 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81
+   at Survey123EmailNotification.Controllers.TestController.Post(Object content) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Controllers\TestController.cs:line 28
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-26 15:28:24.484 -05:00 [ERR] HTTP POST /api/test responded 500 in 7133.0784 ms
+2020-10-26 15:28:24.493 -05:00 [INF] Request finished in 7249.4575ms 500 text/html; charset=utf-8

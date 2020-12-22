@@ -1,0 +1,14 @@
+System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients. ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81
+System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients. ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: No such domain at this location
+   at Survey123EmailNotification.Helpers.SmtpEmailClass.SendEmailWithDecision(String sendersEmail, String recepient, String msgSubject, String msgText) in D:\Projects\Survey123EmailNotification\Survey123EmailNotification\Helpers\SmtpEmailClass.cs:line 81

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UAS flight authorization system</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body onload="onBodyLoad()">
+    <div class="outerBox">
+        <div class="title">
+            <img src="./tfslogo.png" style="height: 50px" /><br>
+            UAS flight authorization request from
+            <hr>
+        </div>
+        <div id="loadingImageDiv">
+            <img class="loadingImage" src="./loading.gif" />
+        </div>
+
+        <span class="errors">
+            <div id="decisionError" class="error">Please select a decision for this flight application.</div>
+            <div id="memberNameError" class="error">Please select committee member's name.</div>
+            <div id="missionNumberError" class="error">Invalid mission number.</div>
+        </span>
+        <div id="fullForm">
+            <span id="featureId"></span>
+            <hr>
+            <form id="decisionForm">
+
+                <input type="hidden" name="featureId" id="featureIdForm" />
+                <input type="hidden" name="email" id="email" />
+
+                <input type="radio" name="decision" value="approved" id="radio-accept" class="form-radio"><label
+                    for="radio-accept" required>Approve</label><br />
+                <input type="radio" name="decision" value="denied" id="radio-deny" class="form-radio"><label
+                    for="radio-deny">Deny</label>
+                <br><br>
+
+                <div id="missionNumberDiv">
+                    Mission number: <input type="text" name="missionNumber" id="missionNumberInput" value="2019072901">
+                    <br><br>
+                </div>
+                Committee member's name:
+                <select name="committeeMemberName" id="committeeMemberName">
+                    <option value=""></option>
+                    <option value="Don Hannemann">Don Hannemann</option>
+                    <option value="Greg Beard">Greg Beard</option>
+                    <option value="Heidi McChristy">Heidi McChristy</option>
+                    <option value="Jared Karns">Jared Karns</option>
+                    <option value="Jonathon Motsinger">Jonathon Motsinger</option>
+                    <option value="Shane Harrington">Shane Harrington</option>
+                </select>
+                <br><br>
+                Comments/Remarks: <textarea id="comments" name="comments"
+                    placeholder="Additional comments/remarks for the flight..."></textarea> <br>
+                <input type="button" value="Submit" class="centerBtn" onclick="submitDecision()" />
+            </form>
+        </div>
+
+        <div id="successMessage">
+            Thank you. <br>
+            Your decision has been saved.<br><br>
+            An email confirmation has been sent to uas@tfs.tamu.edu and <span id="sendersEmail"></span><br><br>
+            You can now close this window <input type="button" class="centerBtnSmall" onClick="closeWindow()"
+                value="Exit" /><br />
+        </div>
+        <div id="errorMessage">
+            An error occured while processing your request. Please contact <a
+                href="mailto:uastech@tfs.tamu.edu">uastech@tfs.tamu.edu</a> for
+            technical support.
+        </div>
+    </div>
+
+    <div class="outerBox" id="missionNumberAlreadyAssigned">
+        <div class="missionMessage">
+            Sorry, this mission has already been approved and assigned a mission number. <input type="button"
+                class="centerBtnSmall" onClick="closeWindow()" value="Exit" />
+        </div>
+    </div>
+    <div class="outerBox" id="genericError">
+        <div class="missionMessage">
+            Sorry, an error occured while processing your request. Please contact <a
+                href="mailto:uastech@tfs.tamu.edu">uastech@tfs.tamu.edu</a> for further assistance. <br>
+            <input type="button" class="centerBtnSmall" onClick="closeWindow()" value="Exit" />
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
